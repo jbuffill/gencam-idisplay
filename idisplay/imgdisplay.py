@@ -76,7 +76,7 @@ def start_server(**args):
     imgdisplay_log.debug('Start_Server')
     app.run(host=args['host'], port=args['port'])
 
-def main():
+def imgdisplay_main():
     imgdisplay_log.debug('Imgdisplay')
 
     fm = threading.Thread(name='filemon', target=mon.filemonmain, daemon=True)
@@ -107,4 +107,4 @@ def main():
     sys.exit()
 
 if __name__ == '__main__':
-    main()
+    imgdisplay_main()
