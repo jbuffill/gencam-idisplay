@@ -1,8 +1,8 @@
 # gencam-idisplay
 
-====================================
+
 Python Virtual Environment
-====================================
+==========================
 
 >$ mkdir app; cd app
 
@@ -48,9 +48,8 @@ List of python packages in your python virtual environment will now be:
 
 
 
-====================================
 Linux Centos-7 Required installs
-====================================
+=================================
 
 Need to verify or yum install following packages:
 
